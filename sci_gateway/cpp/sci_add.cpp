@@ -8,21 +8,27 @@
 // Author: Rupak Rokade
 // Organization: FOSSEE, IIT Bombay
 // Email: toolbox@scilab.in
-#include "vec.h"
+//#include "vec.h"
+#include "rand.h"
 #include<bits/stdc++.h>
 using namespace std;
 void add1(double ar[1] , double* in , double *in1,double *out1 ) 
 {   
-    vector<int>op;
-    int ans = 0 ;
-    int n = 0 ;
-    for(int i = 0 ; i<in1[0] ; i ++ )
-        {
-            op.push_back(in[i]);
-            n++;
-        }
-    add(ar,op);
-    out1[0]=ar[0];
+    // vector<int>op;
+    // int ans = 0 ;
+    // int n = 0 ;
+    // for(int i = 0 ; i<in1[0] ; i ++ )
+    //     {
+    //         op.push_back(in[i]);
+    //         n++;
+    //     }
+    // add(ar,op);
+    // out1[0]=ar[0];
+}
+void get_rand_gaussian1(double *out1)
+{
+    //out1[0] = get_rand_gaussian();
+    out1[0]=1;
 }
 extern "C"
 {
@@ -31,8 +37,7 @@ extern "C"
 #include <stdio.h>
 #include "localization.h"
 
-
-static const char fname[] = "add";
+static const char fname[] = "get_random_gaussian";
 
 int sci_add(scilabEnv env, int nin, scilabVar* in, int nopt, scilabOpt* opt, int nout, scilabVar* out)
 
@@ -41,17 +46,21 @@ int sci_add(scilabEnv env, int nin, scilabVar* in, int nopt, scilabOpt* opt, int
 	double* in2 = NULL;
 	double* out1 = NULL;
 	double ar[1];
-  
+    if(nin==0)
+    {
+        get_rand_gaussian1(out1);
+        return 0;
+    }
 if (nin != 2)
     {
-        Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 2);
-        return 1;
+    //    Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 2);
+    //    return 1;
     }
 
 if (nout != 1)
     {
-        Scierror(77, _("%s: Wrong number of output argument(s): %d expected.\n"), fname, 1);
-        return 1;
+    //    Scierror(77, _("%s: Wrong number of output argument(s): %d expected.\n"), fname, 1);
+    //    return 1;
     }
 
 

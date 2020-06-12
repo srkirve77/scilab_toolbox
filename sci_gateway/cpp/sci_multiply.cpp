@@ -8,17 +8,19 @@
 // Author: Rupak Rokade
 // Organization: FOSSEE, IIT Bombay
 // Email: toolbox@scilab.in
+#include "mul.h"
+
 extern "C"
 {
 #include<Scierror.h>
 #include<api_scilab.h>
 #include <stdio.h>
 #include "localization.h"
-#include "mul.h"
 
-
-
-
+void mul1(double ar[1] , double in1 , double in2)
+{
+    //mul(ar,in1,in2);
+}
 static const char fname[] = "multiply";
 int sci_multiply(scilabEnv env, int nin, scilabVar* in, int nopt, scilabOpt* opt, int nout, scilabVar* out)
 
@@ -43,7 +45,7 @@ if (nout != 1)
     scilab_getDoubleArray(env, in[0], &in1);
     scilab_getDoubleArray(env, in[1], &in2);
 
-	//	mul(ar, in1[0],in2[0]);
+	mul1(ar, in1[0],in2[0]);
 
 		out[0] = scilab_createDoubleMatrix2d(env, 1, 1, 0);
    	scilab_getDoubleArray(env, out[0], &out1);

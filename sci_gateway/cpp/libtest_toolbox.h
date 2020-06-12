@@ -3,7 +3,6 @@
 
 #include "c_gateway_prototype.h"
 
-C_GATEWAY_PROTOTYPE(sci_add);
-C_GATEWAY_PROTOTYPE(sci_multiply);
+C_GATEWAY_PROTOTYPE(sci_get_random_gaussian);
 
 #endif /* __LIBTEST_TOOLBOX_GW_H__ */

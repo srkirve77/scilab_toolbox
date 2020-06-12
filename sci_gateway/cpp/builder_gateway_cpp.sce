@@ -18,14 +18,12 @@ Build_64Bits = %t;
 path_builder = get_absolute_file_path('builder_gateway_cpp.sce');
 
 Function_Names = [
-        "add","sci_add","csci6"; 
-        "multiply","sci_multiply", "csci6";
+        "get_random_gaussian","sci_get_random_gaussian","csci6"; 
     ];
 
 //Name of all the files to be compiled
 Files = [
-    "sci_add.cpp",
-				"sci_multiply.cpp"
+                "sci_get_random_gaussian.cpp",
 				]
 
 
@@ -58,7 +56,7 @@ else//LINUX
 
     C_Flags = ["-I"+inc_base_dir];
 
-		Linker_Flag = ["-L" + lib_base_dir + " -lvec -Wl,-rpath="+lib_base_dir]
+		Linker_Flag = ["-L" + lib_base_dir + " -lrand -Wl,-rpath="+lib_base_dir ]
 
 end
 

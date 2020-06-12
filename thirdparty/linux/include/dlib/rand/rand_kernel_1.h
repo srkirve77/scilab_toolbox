@@ -241,7 +241,9 @@ namespace dlib
                 const double rndmax = std::numeric_limits<dlib::uint32>::max();
 
                 // Generate a pair of Gaussian random numbers using the Box-Muller transformation.
+                srand(time(NULL));
                 do 
+
                 {
                     const double rnd1 = get_random_32bit_number()/rndmax;
                     const double rnd2 = get_random_32bit_number()/rndmax;

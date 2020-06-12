@@ -10,8 +10,7 @@ extern "C"
 
 int libtest_toolbox(wchar_t* _pwstFuncName)
 {
-    if(wcscmp(_pwstFuncName, L"add") == 0){ addCFunction(L"add", &sci_add, MODULE_NAME); }
-    if(wcscmp(_pwstFuncName, L"multiply") == 0){ addCFunction(L"multiply", &sci_multiply, MODULE_NAME); }
+    if(wcscmp(_pwstFuncName, L"get_random_gaussian") == 0){ addCFunction(L"get_random_gaussian", &sci_get_random_gaussian, MODULE_NAME); }
 
     return 1;
 }
