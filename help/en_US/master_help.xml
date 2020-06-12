@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY aa855be94a51f3ca90c409e1dae6161ad SYSTEM "/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master/help/en_US/add.xml">
+<!ENTITY ac6a59c95fce345678a55f310185d6fc2 SYSTEM "/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master/help/en_US/multiply.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='test_toolbox_manual'>
+    <title>test_toolbox</title>
+  </info>
+
+<part xml:id='section_be79b34edc9a6aba562e4a23febf10dc'>
+<title>test_toolbox</title>
+&aa855be94a51f3ca90c409e1dae6161ad;
+&ac6a59c95fce345678a55f310185d6fc2;
+</part>
+</book>
