@@ -11,12 +11,16 @@
 #include "vec.h"
 #include<bits/stdc++.h>
 using namespace std;
-void add1(double ar[1] , double* in , double *out1 ) 
+void add1(double ar[1] , double* in , double *in1,double *out1 ) 
 {   
-     vector<int>op;
+    vector<int>op;
     int ans = 0 ;
-    for(int i = 0 ; i < 3 ; i ++ )
-        op.push_back(in[i]);
+    int n = 0 ;
+    for(int i = 0 ; i<in1[0] ; i ++ )
+        {
+            op.push_back(in[i]);
+            n++;
+        }
     add(ar,op);
     out1[0]=ar[0];
 }
@@ -33,12 +37,12 @@ static const char fname[] = "add";
 int sci_add(scilabEnv env, int nin, scilabVar* in, int nopt, scilabOpt* opt, int nout, scilabVar* out)
 
 {
-	double* in1 = NULL;
+	double* in1 = new double[104];
 	double* in2 = NULL;
 	double* out1 = NULL;
 	double ar[1];
   
-if (nin != 1)
+if (nin != 2)
     {
         Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 2);
         return 1;
@@ -50,15 +54,19 @@ if (nout != 1)
         return 1;
     }
 
-    scilab_getDoubleArray(env, in[0], &in1);
+
+   
+    scilab_getDoubleArray(env, in[1], &in1);
+    scilab_getDoubleArray(env, in[0], &in2);
+    
     //scilab_getDoubleArray(env, in[1], &in2);
 
     //for(int i = 0 ; i < 3 ; i ++ )
     //    op.push_back(in[0][i]);
-
     out[0] = scilab_createDoubleMatrix2d(env, 1, 1, 0);
    	scilab_getDoubleArray(env, out[0], &out1);
-    add1( ar, in1,out1);
+    
+    add1( ar, in1,in2,out1);
 	//	mul(ar, in1[0],in2[0]);
     return 0;
 }
