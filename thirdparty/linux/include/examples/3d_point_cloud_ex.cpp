@@ -7,8 +7,8 @@
 
 */
 
-//#include <dlib/gui_widgets.h>
-//#include <dlib/image_transforms.h>
+#include <dlib/gui_widgets.h>
+#include <dlib/image_transforms.h>
 //#include <cmath>
 #include "../dlib/rand/rand_kernel_1.h"
 
@@ -26,8 +26,8 @@ int main()
     cout<<rnd.get_random_gaussian()<<endl;
 
     cout<<rnd.get_random_gaussian()<<endl;
-    // for (double i = 0; i < 20; i+=0.001)
-    // {
+     for (double i = 0; i < 0.1; i+=0.001)
+     {
     //     // Get a point on a spiral
     //     dlib::vector<double> val(sin(i),cos(i),i/4);
 
@@ -38,11 +38,16 @@ int main()
     //     val += temp/20;
 
     //     // Pick a color based on how far we are along the spiral
-    //     rgb_pixel color = colormap_jet(i,0,20);
-
+         rgb_pixel pix = colormap_jet(i,0,20);
+        double temp  = pix.red - '0';
+        cout<<temp<<" ";
+        temp = pix.green - '0';
+        cout<<temp<<" ";
+        temp = pix.blue - '0';
+        cout<<temp<<"\n";
     //     // And add the point to the list of points we will display
     //     points.push_back(perspective_window::overlay_dot(val, color));
-    // }
+    }
 
     // Now finally display the point cloud.
     // perspective_window win;

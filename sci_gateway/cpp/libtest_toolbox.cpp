@@ -10,7 +10,7 @@ extern "C"
 
 int libtest_toolbox(wchar_t* _pwstFuncName)
 {
-    if(wcscmp(_pwstFuncName, L"get_random_gaussian") == 0){ addCFunction(L"get_random_gaussian", &sci_get_random_gaussian, MODULE_NAME); }
+    if(wcscmp(_pwstFuncName, L"colormap_jet") == 0){ addCFunction(L"colormap_jet", &sci_colormap_jet, MODULE_NAME); }
 
     return 1;
 }

@@ -3,6 +3,6 @@
 
 #include "c_gateway_prototype.h"
 
-C_GATEWAY_PROTOTYPE(sci_get_random_gaussian);
+C_GATEWAY_PROTOTYPE(sci_colormap_jet);
 
 #endif /* __LIBTEST_TOOLBOX_GW_H__ */

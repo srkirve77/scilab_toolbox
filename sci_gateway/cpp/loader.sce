@@ -10,7 +10,7 @@ if bOK then
   ulink(ilib);
 end
 //
-list_functions = [ 'get_random_gaussian';
+list_functions = [ 'colormap_jet';
 ];
 addinter(libtest_toolbox_path + filesep() + 'libtest_toolbox' + getdynlibext(), 'libtest_toolbox', list_functions);
 // remove temp. variables on stack

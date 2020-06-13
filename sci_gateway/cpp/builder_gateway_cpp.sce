@@ -18,12 +18,13 @@ Build_64Bits = %t;
 path_builder = get_absolute_file_path('builder_gateway_cpp.sce');
 
 Function_Names = [
-        "get_random_gaussian","sci_get_random_gaussian","csci6"; 
-    ];
-
+        "colormap_jet", "sci_colormap_jet" , "csci6";
+        ];
+   
 //Name of all the files to be compiled
 Files = [
-                "sci_get_random_gaussian.cpp",
+                "source.cpp";
+                "sci_colormap_jet.cpp";
 				]
 
 
@@ -56,7 +57,7 @@ else//LINUX
 
     C_Flags = ["-I"+inc_base_dir];
 
-		Linker_Flag = ["-L" + lib_base_dir + " -lrand -Wl,-rpath="+lib_base_dir ]
+		Linker_Flag = ["-L" + lib_base_dir + " -lcolormap_jet -Wl,-rpath="+lib_base_dir ]
 
 end
 
