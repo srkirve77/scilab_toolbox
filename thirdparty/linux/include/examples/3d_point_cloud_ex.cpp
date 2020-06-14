@@ -20,40 +20,35 @@ using namespace std;
 int main()
 {
     // Let's make a point cloud that looks like a 3D spiral.
-    //std::vector<perspective_window::overlay_dot> points;
+    std::vector<perspective_window::overlay_dot> points;
     dlib::rand rnd;
-    for(int i = 0 ; i < 10 ; i++ )
-    cout<<rnd.get_random_gaussian()<<endl;
-
-    cout<<rnd.get_random_gaussian()<<endl;
-     for (double i = 0; i < 0.1; i+=0.001)
+     for (double i = 0; i < 20; i+=0.001)
      {
-    //     // Get a point on a spiral
-    //     dlib::vector<double> val(sin(i),cos(i),i/4);
+        // Get a point on a spiral
+        dlib::vector<double> val(sin(i),cos(i),i/4);
 
-    //     // Now add some random noise to it
-    //     dlib::vector<double> temp(rnd.get_random_gaussian(),
-    //                               rnd.get_random_gaussian(),
-    //                               rnd.get_random_gaussian());
-    //     val += temp/20;
+        // Now add some random noise to it
+         
+        dlib::vector<double> temp(rnd.get_random_gaussian(),
+                                  rnd.get_random_gaussian(),
+                                  rnd.get_random_gaussian());
+        
+        cout<<val<<" "<<temp<<endl;
+        val += temp/20;
+        cout<<val<<" "<<temp<<endl;
 
-    //     // Pick a color based on how far we are along the spiral
-         rgb_pixel pix = colormap_jet(i,0,20);
-        double temp  = pix.red - '0';
-        cout<<temp<<" ";
-        temp = pix.green - '0';
-        cout<<temp<<" ";
-        temp = pix.blue - '0';
-        cout<<temp<<"\n";
+        // Pick a color based on how far we are along the spiral
+        rgb_pixel pix = colormap_jet(i,0,20);
     //     // And add the point to the list of points we will display
-    //     points.push_back(perspective_window::overlay_dot(val, color));
+        points.push_back(perspective_window::overlay_dot(val, pix));
+        break;
     }
 
     // Now finally display the point cloud.
-    // perspective_window win;
-    // win.set_title("perspective_window 3D point cloud");
-    // win.add_overlay(points);
-    // win.wait_until_closed();
+     perspective_window win;
+     win.set_title("perspective_window 3D point cloud");
+     win.add_overlay(points);
+     win.wait_until_closed();
 }
 
 //  ----------------------------------------------------------------------------

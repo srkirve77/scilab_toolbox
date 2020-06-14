@@ -8,10 +8,10 @@
 // Author: Rupak Rokade
 // Organization: FOSSEE, IIT Bombay
 // Email: toolbox@scilab.in
-#include "perspective_window.h"
+#include "dlib.h"
 #include<bits/stdc++.h>
 using namespace std;
-void perspective_window( double* in , double *in1 ) 
+void perspective_window(  ) 
 {   
     vector<dlib::perspective_window::overlay_dot>op;
     int ans = 0 ;
@@ -21,7 +21,7 @@ void perspective_window( double* in , double *in1 )
     //         op.push_back(in[i]);
     //         n++;
     //     }
-    tbx_perspective_window(op);
+    perspective_window_call(op);
     //out1[0]=ar[0];
 }
 extern "C"
@@ -42,31 +42,31 @@ int sci_perspective_window(scilabEnv env, int nin, scilabVar* in, int nopt, scil
 	double* out1 = NULL;
 	double ar[1];
   
-if (nin != 1)
-    {
-        Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 2);
-        return 1;
-    }
+    // if (nin != 0)
+    // {
+    //     Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 1);
+    //     return 1;
+    // }
 
-if (nout != 1)
-    {
-        Scierror(77, _("%s: Wrong number of output argument(s): %d expected.\n"), fname, 1);
-        return 1;
-    }
+    // if (nout != 1)
+    // {
+    //     Scierror(77, _("%s: Wrong number of output argument(s): %d expected.\n"), fname, 1);
+    //     return 1;
+    // }
 
 
    
-    scilab_getDoubleArray(env, in[0], &in1);
-    scilab_getDoubleArray(env, in[1], &in2);
+    //scilab_getDoubleArray(env, in[0], &in1);
+    //scilab_getDoubleArray(env, in[1], &in2);
     
     //scilab_getDoubleArray(env, in[1], &in2);
 
     //for(int i = 0 ; i < 3 ; i ++ )
     //    op.push_back(in[0][i]);
-    out[0] = scilab_createDoubleMatrix2d(env, 1, 1, 0);
-   	scilab_getDoubleArray(env, out[0], &out1);
+    //out[0] = scilab_createDoubleMatrix2d(env, 1, 1, 0);
+   	//scilab_getDoubleArray(env, out[0], &out1);
     
-    perspective_window(in1 ,in2);
+    perspective_window();
 	//	mul(ar, in1[0],in2[0]);
     return 0;
 }

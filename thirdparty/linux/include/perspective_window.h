@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
-#include<vector>
-#include "dlib/rand/rand_kernel_abstract.h"
+#include "dlib/gui_widgets.h"
+#include "dlib/image_transforms.h"
 using namespace std;
 
-int tbx_perspective_window(std::vector<dlib::perspective_window::overlay_dot> points);
+int perspective_window_call(std::vector<dlib::perspective_window::overlay_dot> points);

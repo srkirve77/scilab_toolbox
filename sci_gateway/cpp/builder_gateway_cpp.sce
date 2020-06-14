@@ -18,15 +18,21 @@ Build_64Bits = %t;
 path_builder = get_absolute_file_path('builder_gateway_cpp.sce');
 
 Function_Names = [
+        "get_random_gaussian","sci_get_random_gaussian","csci6";    
         "colormap_jet", "sci_colormap_jet" , "csci6";
+        "perspective_window", "sci_perspective_window" , "csci6";     
         ];
    
 //Name of all the files to be compiled
 Files = [
-                "source.cpp";
+                "getway_calls/source.cpp";
+                "getway_calls/colormap_jet.cpp";
+                "getway_calls/perspective_window.cpp";
                 "sci_colormap_jet.cpp";
+                "getway_calls/rand.cpp";
+                "sci_get_random_gaussian.cpp";
+                "sci_perspective_window.cpp";
 				]
-
 
 
 [a, opt] = getversion();
@@ -57,10 +63,9 @@ else//LINUX
 
     C_Flags = ["-I"+inc_base_dir];
 
-		Linker_Flag = ["-L" + lib_base_dir + " -lcolormap_jet -Wl,-rpath="+lib_base_dir ]
-
+		Linker_Flag = ["-L" + lib_base_dir + " -ldlib -Wl,-rpath="+lib_base_dir ]
 end
 
-tbx_build_gateway(toolbox_title,Function_Names,Files,get_absolute_file_path("builder_gateway_cpp.sce"), [], Linker_Flag, C_Flags,[]);
+tbx_build_gateway(toolbox_title,Function_Names,Files,get_absolute_file_path("builder_gateway_cpp.sce"), [],Linker_Flag, C_Flags,[]);
 
 clear toolbox_title Function_Names Files Linker_Flag C_Flags;
