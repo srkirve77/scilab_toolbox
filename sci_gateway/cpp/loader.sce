@@ -13,6 +13,9 @@ end
 list_functions = [ 'get_random_gaussian';
                    'colormap_jet';
                    'perspective_window';
+                   'max_cost_assignment';
+                   'assignment_cost';
+                   'statistics_info';
 ];
 addinter(libtest_toolbox_path + filesep() + 'libtest_toolbox' + getdynlibext(), 'libtest_toolbox', list_functions);
 // remove temp. variables on stack

@@ -11,3 +11,15 @@ void dlib_perspective_window_call(std::vector<dlib::perspective_window::overlay_
 {
 	perspective_window_call(points);
 }
+std::vector<long> dlib_max_cost_assignment_call (matrix<int> cost )
+{
+	return max_cost_assignment_call(cost);
+}
+long dlib_assignment_cost_call(matrix<int> cost,std::vector<long> assignment)
+{
+	return assignment_cost_call(cost,assignment);
+}
+void dlib_statistics_info_call(std::vector<double>&answer,std::vector<double> data , dlib::running_stats<double>*rs
+{
+	return statistics_info(answer,data,rs);
+}

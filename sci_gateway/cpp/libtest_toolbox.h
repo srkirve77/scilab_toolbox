@@ -3,8 +3,11 @@
 
 #include "c_gateway_prototype.h"
 
+C_GATEWAY_PROTOTYPE(sci_assignment_cost);
 C_GATEWAY_PROTOTYPE(sci_colormap_jet);
 C_GATEWAY_PROTOTYPE(sci_get_random_gaussian);
+C_GATEWAY_PROTOTYPE(sci_max_cost_assignment);
 C_GATEWAY_PROTOTYPE(sci_perspective_window);
+C_GATEWAY_PROTOTYPE(sci_statistics);
 
 #endif /* __LIBTEST_TOOLBOX_GW_H__ */

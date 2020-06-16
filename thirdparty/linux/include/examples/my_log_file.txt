@@ -1,0 +1,3 @@
+DEBUG [0] main: This is a debugging message.
+INFO  [0] main: This is an informational message.
+ERROR [0] main: An error message!

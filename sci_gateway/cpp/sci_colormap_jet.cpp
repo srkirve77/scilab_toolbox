@@ -11,7 +11,7 @@ using namespace std;
 void colormap_jet_sci_call(scilabEnv env,double* in1 , double* in2,double* in3,double* out3 ) 
 {   
     dlib::rgb_pixel pix;
-    pix = dlib_colormap_jet_call(in1[0],in2[0],in3[0]);
+    pix = colormap_jet_call(in1[0],in2[0],in3[0]);
     int temp  = (pix.red-'0');
      out3[0] = temp;
      temp = (pix.green-'0');

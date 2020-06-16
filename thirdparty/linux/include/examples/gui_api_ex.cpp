@@ -205,12 +205,14 @@ private:
 int main()
 {
     // create our window
-    win my_window;
+     win my_window;
 
+    //color_box drag;
+    //drag.set_draggable_area(rectangle(10,10,400,400));
 
     // wait until the user closes this window before we let the program 
     // terminate.
-    my_window.wait_until_closed();
+     my_window.wait_until_closed();
 
     return 0;
 }

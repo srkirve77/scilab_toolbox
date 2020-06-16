@@ -11,9 +11,9 @@
 #include "dlib.h"
 #include<bits/stdc++.h>
 using namespace std;
-void perspective_window( double* n_in , double*in1) 
+void perspective_window1( double* n_in , double*in1) 
 {   
-    vector<dlib::perspective_window::overlay_dot>op;
+    std::vector<dlib::perspective_window::overlay_dot>op;
     int ans = 0 ;
     int n = 0 ;
     cout<<n_in[0]<<endl;
@@ -54,11 +54,11 @@ int sci_perspective_window(scilabEnv env, int nin, scilabVar* in, int nopt, scil
 	double* out1 = NULL;
 	double ar[1];
   
-    // if (nin != 0)
-    // {
-    //     Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 1);
-    //     return 1;
-    // }
+    if (nin != 2)
+    {
+        Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 2);
+        return 1;
+    }
 
     // if (nout != 1)
     // {
@@ -70,31 +70,8 @@ int sci_perspective_window(scilabEnv env, int nin, scilabVar* in, int nopt, scil
    
     scilab_getDoubleArray(env, in[0], &n_in);
     cout<<scilab_getType(env, in[1])<<endl;
-    //cout<<scilab_isMatrix2d(env, in[1])<<endl;
-    //in1 = scilab_createDoubleMatrix2d(env, n_in[0], 6, 0); 
-    //in1 = in[1];
-    scilab_getDoubleArray(env, in[1], &in1);
-    //scilab_getDoubleArray(env, in[2], &in2);
-    // scilab_getDoubleArray(env, in[3], &in3);
-    // scilab_getDoubleArray(env, in[4], &in4);
-    // scilab_getDoubleArray(env, in[5], &in5);
-    // scilab_getDoubleArray(env, in[6], &in6);
-    //cout<<n_in[0]<<endl;
-    // for(int  i = 0 ; i < n_in[0] ; i++ )
-    // {
-    //     cout<<in1[i]<<" "<<in1[i+(int)n_in[0]]<<"\n";
-    // }
-    //scilab_getDoubleArray(env, in[1], &in2);
-    
-    //scilab_getDoubleArray(env, in[1], &in2);
-
-    //for(int i = 0 ; i < 3 ; i ++ )
-    //    op.push_back(in[0][i]);
-    //out[0] = scilab_createDoubleMatrix2d(env, 1, 1, 0);
-   	//scilab_getDoubleArray(env, out[0], &out1);
-    
-    perspective_window(n_in,in1);
-	//	mul(ar, in1[0],in2[0]);
+    scilab_getDoubleArray(env, in[1], &in1);    
+    perspective_window1(n_in,in1);
     return 0;
 }
 }

@@ -20,7 +20,10 @@ path_builder = get_absolute_file_path('builder_gateway_cpp.sce');
 Function_Names = [
         "get_random_gaussian","sci_get_random_gaussian","csci6";    
         "colormap_jet", "sci_colormap_jet" , "csci6";
-        "perspective_window", "sci_perspective_window" , "csci6";     
+        "perspective_window", "sci_perspective_window" , "csci6";  
+        "max_cost_assignment", "sci_max_cost_assignment", "csci6";   
+        "assignment_cost","sci_assignment_cost","csci6";
+        "statistics_info","sci_statistics","csci6";
         ];
    
 //Name of all the files to be compiled
@@ -28,10 +31,16 @@ Files = [
                 "getway_calls/source.cpp";
                 "getway_calls/colormap_jet.cpp";
                 "getway_calls/perspective_window.cpp";
-                "sci_colormap_jet.cpp";
                 "getway_calls/rand.cpp";
+                "getway_calls/max_cost_assign.cpp";
+                "getway_calls/assignment_cost.cpp";
+                "getway_calls/running_stats.cpp";
+                "sci_colormap_jet.cpp";
                 "sci_get_random_gaussian.cpp";
                 "sci_perspective_window.cpp";
+                "sci_max_cost_assignment.cpp";
+                "sci_assignment_cost.cpp";
+                "sci_statistics.cpp";
 				]
 
 
