@@ -9,5 +9,6 @@ C_GATEWAY_PROTOTYPE(sci_get_random_gaussian);
 C_GATEWAY_PROTOTYPE(sci_max_cost_assignment);
 C_GATEWAY_PROTOTYPE(sci_perspective_window);
 C_GATEWAY_PROTOTYPE(sci_statistics);
+C_GATEWAY_PROTOTYPE(sci_xml_parser);
 
 #endif /* __LIBTEST_TOOLBOX_GW_H__ */

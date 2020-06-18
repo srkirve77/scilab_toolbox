@@ -19,7 +19,11 @@ long dlib_assignment_cost_call(matrix<int> cost,std::vector<long> assignment)
 {
 	return assignment_cost_call(cost,assignment);
 }
-void dlib_statistics_info_call(std::vector<double>&answer,std::vector<double> data , dlib::running_stats<double>*rs
+void dlib_statistics_info_call(std::vector<double>&answer,std::vector<double> data , dlib::running_stats<double>*rs)
 {
 	return statistics_info(answer,data,rs);
+}
+void dlib_xml_parser_call(string str,string output_file)
+{
+	xml_parser_call(str,output_file);
 }

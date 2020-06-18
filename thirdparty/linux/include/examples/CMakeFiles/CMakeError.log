@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84970/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84970.dir/build.make CMakeFiles/cmTC_84970.dir/build
+make[1]: Entering directory '/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84970.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_84970.dir/CheckSymbolExists.c.o   -c /home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_84970
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84970.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_84970.dir/CheckSymbolExists.c.o  -o cmTC_84970 
+CMakeFiles/cmTC_84970.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_84970.dir/build.make:97: recipe for target 'cmTC_84970' failed
+make[1]: *** [cmTC_84970] Error 1
+make[1]: Leaving directory '/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_84970/fast' failed
+make: *** [cmTC_84970/fast] Error 2
+
+File /home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_990c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_990c0.dir/build.make CMakeFiles/cmTC_990c0.dir/build
+make[1]: Entering directory '/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_990c0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_990c0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_990c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_990c0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_990c0.dir/CheckFunctionExists.c.o  -o cmTC_990c0 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_990c0.dir/build.make:97: recipe for target 'cmTC_990c0' failed
+make[1]: *** [cmTC_990c0] Error 1
+make[1]: Leaving directory '/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_990c0/fast' failed
+make: *** [cmTC_990c0/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75667/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75667.dir/build.make CMakeFiles/cmTC_75667.dir/build
+make[1]: Entering directory '/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75667.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_75667.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75667
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75667.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_75667.dir/CheckFunctionExists.c.o  -o cmTC_75667 /usr/lib/x86_64-linux-gnu/liblapack.so 
+CMakeFiles/cmTC_75667.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_75667.dir/build.make:98: recipe for target 'cmTC_75667' failed
+make[1]: *** [cmTC_75667] Error 1
+make[1]: Leaving directory '/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_75667/fast' failed
+make: *** [cmTC_75667/fast] Error 2
+
+

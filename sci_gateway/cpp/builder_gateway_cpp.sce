@@ -24,8 +24,8 @@ Function_Names = [
         "max_cost_assignment", "sci_max_cost_assignment", "csci6";   
         "assignment_cost","sci_assignment_cost","csci6";
         "statistics_info","sci_statistics","csci6";
+        "xml_parser","sci_xml_parser","csci6";   
         ];
-   
 //Name of all the files to be compiled
 Files = [
                 "getway_calls/source.cpp";
@@ -35,14 +35,15 @@ Files = [
                 "getway_calls/max_cost_assign.cpp";
                 "getway_calls/assignment_cost.cpp";
                 "getway_calls/running_stats.cpp";
+                "getway_calls/xml_parser.cpp";
                 "sci_colormap_jet.cpp";
                 "sci_get_random_gaussian.cpp";
                 "sci_perspective_window.cpp";
                 "sci_max_cost_assignment.cpp";
                 "sci_assignment_cost.cpp";
                 "sci_statistics.cpp";
+                "sci_xml_parser.cpp";
 				]
-
 
 [a, opt] = getversion();
 Version = opt(2);

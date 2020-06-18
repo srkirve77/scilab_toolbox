@@ -9,7 +9,7 @@ void get_rand_gaussian1(double *in1 ,double *out1)
     int n = in1[0];
     for(int i = 0 ; i < n ; i ++ )
     {
-        out1[i] = get_random_call(ran);
+       out1[i] = get_random_call(ran);
     }
 }
 extern "C"

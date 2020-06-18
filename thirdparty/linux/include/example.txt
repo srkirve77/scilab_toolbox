@@ -1,0 +1,229 @@
+parsing begins
+on line 1 we hit a processing instruction with a target of 'xml' and data 'version='1.0' encoding='ISO-8859-1''
+on line 2 we hit a processing instruction with a target of 'xml-stylesheet' and data 'type='text/xsl' href='image_metadata_stylesheet.xsl''
+on line 3 we hit the <dataset> tag
+Got some data between tags and it is:
+
+
+on line 4 we hit the <name> tag
+Got some data between tags and it is:
+Training faces
+on line 4 we hit the closing tag </name>
+Got some data between tags and it is:
+
+
+on line 5 we hit the <comment> tag
+Got some data between tags and it is:
+These are images from the PASCAL VOC 2011 dataset.
+on line 5 we hit the closing tag </comment>
+Got some data between tags and it is:
+
+
+on line 6 we hit the <images> tag
+Got some data between tags and it is:
+
+  
+on line 7 we hit the <image> tag
+	attribute: file = 2007_007763.jpg
+Got some data between tags and it is:
+
+    
+on line 8 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 194
+	attribute: top = 90
+	attribute: width = 37
+on line 8 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 9 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 158
+	attribute: top = 114
+	attribute: width = 37
+on line 9 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 10 we hit the <box> tag
+	attribute: height = 44
+	attribute: left = 381
+	attribute: top = 89
+	attribute: width = 45
+on line 10 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 11 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 94
+	attribute: top = 198
+	attribute: width = 37
+on line 11 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 12 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 178
+	attribute: top = 214
+	attribute: width = 37
+on line 12 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 13 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 294
+	attribute: top = 86
+	attribute: width = 37
+on line 13 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 14 we hit the <box> tag
+	attribute: height = 44
+	attribute: left = 309
+	attribute: top = 233
+	attribute: width = 45
+on line 14 we hit the closing tag </box>
+Got some data between tags and it is:
+
+  
+on line 15 we hit the closing tag </image>
+Got some data between tags and it is:
+
+  
+on line 16 we hit the <image> tag
+	attribute: file = 2008_002079.jpg
+Got some data between tags and it is:
+
+    
+on line 17 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 407
+	attribute: top = 166
+	attribute: width = 37
+on line 17 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 18 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 122
+	attribute: top = 134
+	attribute: width = 37
+on line 18 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 19 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 346
+	attribute: top = 138
+	attribute: width = 37
+on line 19 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 20 we hit the <box> tag
+	attribute: height = 52
+	attribute: left = 433
+	attribute: top = 171
+	attribute: width = 53
+on line 20 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 21 we hit the <box> tag
+	attribute: height = 37
+	attribute: left = 62
+	attribute: top = 134
+	attribute: width = 37
+on line 21 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 22 we hit the <box> tag
+	attribute: height = 44
+	attribute: left = 41
+	attribute: top = 194
+	attribute: width = 44
+on line 22 we hit the closing tag </box>
+Got some data between tags and it is:
+
+  
+on line 23 we hit the closing tag </image>
+Got some data between tags and it is:
+
+  
+on line 24 we hit the <image> tag
+	attribute: file = 2008_001009.jpg
+Got some data between tags and it is:
+
+    
+on line 25 we hit the <box> tag
+	attribute: height = 76
+	attribute: left = 145
+	attribute: top = 79
+	attribute: width = 76
+on line 25 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 26 we hit the <box> tag
+	attribute: height = 91
+	attribute: left = 125
+	attribute: top = 214
+	attribute: width = 90
+on line 26 we hit the closing tag </box>
+Got some data between tags and it is:
+
+  
+on line 27 we hit the closing tag </image>
+Got some data between tags and it is:
+
+  
+on line 28 we hit the <image> tag
+	attribute: file = 2008_001322.jpg
+Got some data between tags and it is:
+
+    
+on line 29 we hit the <box> tag
+	attribute: height = 76
+	attribute: left = 104
+	attribute: top = 162
+	attribute: width = 76
+on line 29 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 30 we hit the <box> tag
+	attribute: height = 63
+	attribute: left = 232
+	attribute: top = 218
+	attribute: width = 63
+on line 30 we hit the closing tag </box>
+Got some data between tags and it is:
+
+    
+on line 31 we hit the <box> tag
+	attribute: height = 90
+	attribute: left = 344
+	attribute: top = 155
+	attribute: width = 90
+on line 31 we hit the closing tag </box>
+Got some data between tags and it is:
+
+  
+on line 32 we hit the closing tag </image>
+Got some data between tags and it is:
+
+
+on line 33 we hit the closing tag </images>
+Got some data between tags and it is:
+
+
+on line 34 we hit the closing tag </dataset>
+Parsing done

@@ -22,7 +22,7 @@ void max_cost_assignment1( double* row , double* col, double* mat,double* out1,d
     std::vector<long> assignment = max_cost_assignment_call(cost);
     for(int i = 0 ; i < assignment.size() ; i ++ )
     {
-        out1[i] = assignment[i]; 
+       out1[i] = assignment[i]; 
     }
     out2[0] = assignment_cost_call(cost,assignment);
     cout<<out2[0]<<endl;        

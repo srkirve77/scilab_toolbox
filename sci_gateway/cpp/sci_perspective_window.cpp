@@ -24,7 +24,7 @@ void perspective_window1( double* n_in , double*in1)
          pix.red = in1[i+3*(int)n_in[0]];
          pix.green = in1[i+4*(int)n_in[0]];
          pix.blue = in1[i+5*(int)n_in[0]];
-        op.push_back(dlib::perspective_window::overlay_dot(val, pix));
+         op.push_back(dlib::perspective_window::overlay_dot(val, pix));
       
     //         n++;
     }

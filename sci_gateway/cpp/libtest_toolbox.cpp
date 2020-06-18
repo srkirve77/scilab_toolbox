@@ -16,6 +16,7 @@ int libtest_toolbox(wchar_t* _pwstFuncName)
     if(wcscmp(_pwstFuncName, L"max_cost_assignment") == 0){ addCFunction(L"max_cost_assignment", &sci_max_cost_assignment, MODULE_NAME); }
     if(wcscmp(_pwstFuncName, L"assignment_cost") == 0){ addCFunction(L"assignment_cost", &sci_assignment_cost, MODULE_NAME); }
     if(wcscmp(_pwstFuncName, L"statistics_info") == 0){ addCFunction(L"statistics_info", &sci_statistics, MODULE_NAME); }
+    if(wcscmp(_pwstFuncName, L"xml_parser") == 0){ addCFunction(L"xml_parser", &sci_xml_parser, MODULE_NAME); }
 
     return 1;
 }
