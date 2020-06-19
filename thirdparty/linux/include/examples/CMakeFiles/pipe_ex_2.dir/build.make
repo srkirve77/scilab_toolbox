@@ -99,7 +99,7 @@ pipe_ex_2: /usr/lib/x86_64-linux-gnu/libXext.so
 pipe_ex_2: /usr/lib/x86_64-linux-gnu/libpng.so
 pipe_ex_2: /usr/lib/x86_64-linux-gnu/libz.so
 pipe_ex_2: /usr/lib/x86_64-linux-gnu/libjpeg.so
-pipe_ex_2: /usr/lib/x86_64-linux-gnu/libblas.so
+pipe_ex_2: /usr/lib/x86_64-linux-gnu/libcblas.so
 pipe_ex_2: /usr/lib/x86_64-linux-gnu/liblapack.so
 pipe_ex_2: CMakeFiles/pipe_ex_2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pipe_ex_2"

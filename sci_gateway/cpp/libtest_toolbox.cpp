@@ -17,6 +17,7 @@ int libtest_toolbox(wchar_t* _pwstFuncName)
     if(wcscmp(_pwstFuncName, L"assignment_cost") == 0){ addCFunction(L"assignment_cost", &sci_assignment_cost, MODULE_NAME); }
     if(wcscmp(_pwstFuncName, L"statistics_info") == 0){ addCFunction(L"statistics_info", &sci_statistics, MODULE_NAME); }
     if(wcscmp(_pwstFuncName, L"xml_parser") == 0){ addCFunction(L"xml_parser", &sci_xml_parser, MODULE_NAME); }
+    if(wcscmp(_pwstFuncName, L"webcam_face_pose") == 0){ addCFunction(L"webcam_face_pose", &sci_webcam_face_pose, MODULE_NAME); }
 
     return 1;
 }

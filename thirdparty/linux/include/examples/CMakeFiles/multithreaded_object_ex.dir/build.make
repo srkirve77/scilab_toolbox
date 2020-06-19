@@ -99,7 +99,7 @@ multithreaded_object_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 multithreaded_object_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 multithreaded_object_ex: /usr/lib/x86_64-linux-gnu/libz.so
 multithreaded_object_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-multithreaded_object_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+multithreaded_object_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 multithreaded_object_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 multithreaded_object_ex: CMakeFiles/multithreaded_object_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable multithreaded_object_ex"

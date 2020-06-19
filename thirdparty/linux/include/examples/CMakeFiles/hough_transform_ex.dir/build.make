@@ -99,7 +99,7 @@ hough_transform_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 hough_transform_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 hough_transform_ex: /usr/lib/x86_64-linux-gnu/libz.so
 hough_transform_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-hough_transform_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+hough_transform_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 hough_transform_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 hough_transform_ex: CMakeFiles/hough_transform_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hough_transform_ex"

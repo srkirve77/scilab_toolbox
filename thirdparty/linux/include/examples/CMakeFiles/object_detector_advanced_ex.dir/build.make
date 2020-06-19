@@ -99,7 +99,7 @@ object_detector_advanced_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 object_detector_advanced_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 object_detector_advanced_ex: /usr/lib/x86_64-linux-gnu/libz.so
 object_detector_advanced_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-object_detector_advanced_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+object_detector_advanced_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 object_detector_advanced_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 object_detector_advanced_ex: CMakeFiles/object_detector_advanced_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable object_detector_advanced_ex"

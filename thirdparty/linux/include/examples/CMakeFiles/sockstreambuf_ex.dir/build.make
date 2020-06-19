@@ -99,7 +99,7 @@ sockstreambuf_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 sockstreambuf_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 sockstreambuf_ex: /usr/lib/x86_64-linux-gnu/libz.so
 sockstreambuf_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-sockstreambuf_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+sockstreambuf_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 sockstreambuf_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 sockstreambuf_ex: CMakeFiles/sockstreambuf_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sockstreambuf_ex"

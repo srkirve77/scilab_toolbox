@@ -27,3 +27,7 @@ void dlib_xml_parser_call(string str,string output_file)
 {
 	xml_parser_call(str,output_file);
 }
+void dlib_webcam_face_pose_call()
+{
+	webcam_face_pose();
+}

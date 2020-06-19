@@ -99,7 +99,7 @@ rvm_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 rvm_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 rvm_ex: /usr/lib/x86_64-linux-gnu/libz.so
 rvm_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-rvm_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+rvm_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 rvm_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 rvm_ex: CMakeFiles/rvm_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rvm_ex"

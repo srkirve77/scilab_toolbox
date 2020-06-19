@@ -99,7 +99,7 @@ svm_pegasos_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 svm_pegasos_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 svm_pegasos_ex: /usr/lib/x86_64-linux-gnu/libz.so
 svm_pegasos_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-svm_pegasos_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+svm_pegasos_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 svm_pegasos_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 svm_pegasos_ex: CMakeFiles/svm_pegasos_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable svm_pegasos_ex"

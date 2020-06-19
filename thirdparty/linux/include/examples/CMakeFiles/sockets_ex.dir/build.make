@@ -99,7 +99,7 @@ sockets_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 sockets_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 sockets_ex: /usr/lib/x86_64-linux-gnu/libz.so
 sockets_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-sockets_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+sockets_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 sockets_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 sockets_ex: CMakeFiles/sockets_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sockets_ex"

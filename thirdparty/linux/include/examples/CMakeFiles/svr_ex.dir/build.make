@@ -99,7 +99,7 @@ svr_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 svr_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 svr_ex: /usr/lib/x86_64-linux-gnu/libz.so
 svr_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-svr_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+svr_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 svr_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 svr_ex: CMakeFiles/svr_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable svr_ex"

@@ -189,19 +189,6 @@ thread_pool_ex/fast:
 .PHONY : thread_pool_ex/fast
 
 #=============================================================================
-# Target rules for targets named thread_function_ex
-
-# Build rule for target.
-thread_function_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 thread_function_ex
-.PHONY : thread_function_ex
-
-# fast build rule for target.
-thread_function_ex/fast:
-	$(MAKE) -f CMakeFiles/thread_function_ex.dir/build.make CMakeFiles/thread_function_ex.dir/build
-.PHONY : thread_function_ex/fast
-
-#=============================================================================
 # Target rules for targets named svr_ex
 
 # Build rule for target.
@@ -293,56 +280,30 @@ server_http_ex/fast:
 .PHONY : server_http_ex/fast
 
 #=============================================================================
-# Target rules for targets named file_to_code_ex
+# Target rules for targets named server_iostream_ex
 
 # Build rule for target.
-file_to_code_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 file_to_code_ex
-.PHONY : file_to_code_ex
+server_iostream_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server_iostream_ex
+.PHONY : server_iostream_ex
 
 # fast build rule for target.
-file_to_code_ex/fast:
-	$(MAKE) -f CMakeFiles/file_to_code_ex.dir/build.make CMakeFiles/file_to_code_ex.dir/build
-.PHONY : file_to_code_ex/fast
+server_iostream_ex/fast:
+	$(MAKE) -f CMakeFiles/server_iostream_ex.dir/build.make CMakeFiles/server_iostream_ex.dir/build
+.PHONY : server_iostream_ex/fast
 
 #=============================================================================
-# Target rules for targets named bayes_net_gui_ex
+# Target rules for targets named sequence_segmenter_ex
 
 # Build rule for target.
-bayes_net_gui_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bayes_net_gui_ex
-.PHONY : bayes_net_gui_ex
+sequence_segmenter_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sequence_segmenter_ex
+.PHONY : sequence_segmenter_ex
 
 # fast build rule for target.
-bayes_net_gui_ex/fast:
-	$(MAKE) -f CMakeFiles/bayes_net_gui_ex.dir/build.make CMakeFiles/bayes_net_gui_ex.dir/build
-.PHONY : bayes_net_gui_ex/fast
-
-#=============================================================================
-# Target rules for targets named fhog_ex
-
-# Build rule for target.
-fhog_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fhog_ex
-.PHONY : fhog_ex
-
-# fast build rule for target.
-fhog_ex/fast:
-	$(MAKE) -f CMakeFiles/fhog_ex.dir/build.make CMakeFiles/fhog_ex.dir/build
-.PHONY : fhog_ex/fast
-
-#=============================================================================
-# Target rules for targets named fhog_object_detector_ex
-
-# Build rule for target.
-fhog_object_detector_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fhog_object_detector_ex
-.PHONY : fhog_object_detector_ex
-
-# fast build rule for target.
-fhog_object_detector_ex/fast:
-	$(MAKE) -f CMakeFiles/fhog_object_detector_ex.dir/build.make CMakeFiles/fhog_object_detector_ex.dir/build
-.PHONY : fhog_object_detector_ex/fast
+sequence_segmenter_ex/fast:
+	$(MAKE) -f CMakeFiles/sequence_segmenter_ex.dir/build.make CMakeFiles/sequence_segmenter_ex.dir/build
+.PHONY : sequence_segmenter_ex/fast
 
 #=============================================================================
 # Target rules for targets named svm_rank_ex
@@ -423,6 +384,84 @@ bsp_ex/fast:
 .PHONY : bsp_ex/fast
 
 #=============================================================================
+# Target rules for targets named thread_function_ex
+
+# Build rule for target.
+thread_function_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_function_ex
+.PHONY : thread_function_ex
+
+# fast build rule for target.
+thread_function_ex/fast:
+	$(MAKE) -f CMakeFiles/thread_function_ex.dir/build.make CMakeFiles/thread_function_ex.dir/build
+.PHONY : thread_function_ex/fast
+
+#=============================================================================
+# Target rules for targets named webcam_face_pose_ex
+
+# Build rule for target.
+webcam_face_pose_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 webcam_face_pose_ex
+.PHONY : webcam_face_pose_ex
+
+# fast build rule for target.
+webcam_face_pose_ex/fast:
+	$(MAKE) -f CMakeFiles/webcam_face_pose_ex.dir/build.make CMakeFiles/webcam_face_pose_ex.dir/build
+.PHONY : webcam_face_pose_ex/fast
+
+#=============================================================================
+# Target rules for targets named bridge_ex
+
+# Build rule for target.
+bridge_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bridge_ex
+.PHONY : bridge_ex
+
+# fast build rule for target.
+bridge_ex/fast:
+	$(MAKE) -f CMakeFiles/bridge_ex.dir/build.make CMakeFiles/bridge_ex.dir/build
+.PHONY : bridge_ex/fast
+
+#=============================================================================
+# Target rules for targets named dnn_imagenet_ex
+
+# Build rule for target.
+dnn_imagenet_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dnn_imagenet_ex
+.PHONY : dnn_imagenet_ex
+
+# fast build rule for target.
+dnn_imagenet_ex/fast:
+	$(MAKE) -f CMakeFiles/dnn_imagenet_ex.dir/build.make CMakeFiles/dnn_imagenet_ex.dir/build
+.PHONY : dnn_imagenet_ex/fast
+
+#=============================================================================
+# Target rules for targets named video_tracking_ex
+
+# Build rule for target.
+video_tracking_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_tracking_ex
+.PHONY : video_tracking_ex
+
+# fast build rule for target.
+video_tracking_ex/fast:
+	$(MAKE) -f CMakeFiles/video_tracking_ex.dir/build.make CMakeFiles/video_tracking_ex.dir/build
+.PHONY : video_tracking_ex/fast
+
+#=============================================================================
+# Target rules for targets named multiclass_classification_ex
+
+# Build rule for target.
+multiclass_classification_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiclass_classification_ex
+.PHONY : multiclass_classification_ex
+
+# fast build rule for target.
+multiclass_classification_ex/fast:
+	$(MAKE) -f CMakeFiles/multiclass_classification_ex.dir/build.make CMakeFiles/multiclass_classification_ex.dir/build
+.PHONY : multiclass_classification_ex/fast
+
+#=============================================================================
 # Target rules for targets named dnn_instance_segmentation_train_ex
 
 # Build rule for target.
@@ -488,32 +527,6 @@ random_cropper_ex/fast:
 .PHONY : random_cropper_ex/fast
 
 #=============================================================================
-# Target rules for targets named server_iostream_ex
-
-# Build rule for target.
-server_iostream_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 server_iostream_ex
-.PHONY : server_iostream_ex
-
-# fast build rule for target.
-server_iostream_ex/fast:
-	$(MAKE) -f CMakeFiles/server_iostream_ex.dir/build.make CMakeFiles/server_iostream_ex.dir/build
-.PHONY : server_iostream_ex/fast
-
-#=============================================================================
-# Target rules for targets named sequence_segmenter_ex
-
-# Build rule for target.
-sequence_segmenter_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sequence_segmenter_ex
-.PHONY : sequence_segmenter_ex
-
-# fast build rule for target.
-sequence_segmenter_ex/fast:
-	$(MAKE) -f CMakeFiles/sequence_segmenter_ex.dir/build.make CMakeFiles/sequence_segmenter_ex.dir/build
-.PHONY : sequence_segmenter_ex/fast
-
-#=============================================================================
 # Target rules for targets named using_custom_kernels_ex
 
 # Build rule for target.
@@ -538,6 +551,58 @@ dnn_inception_ex: cmake_check_build_system
 dnn_inception_ex/fast:
 	$(MAKE) -f CMakeFiles/dnn_inception_ex.dir/build.make CMakeFiles/dnn_inception_ex.dir/build
 .PHONY : dnn_inception_ex/fast
+
+#=============================================================================
+# Target rules for targets named bayes_net_gui_ex
+
+# Build rule for target.
+bayes_net_gui_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bayes_net_gui_ex
+.PHONY : bayes_net_gui_ex
+
+# fast build rule for target.
+bayes_net_gui_ex/fast:
+	$(MAKE) -f CMakeFiles/bayes_net_gui_ex.dir/build.make CMakeFiles/bayes_net_gui_ex.dir/build
+.PHONY : bayes_net_gui_ex/fast
+
+#=============================================================================
+# Target rules for targets named fhog_object_detector_ex
+
+# Build rule for target.
+fhog_object_detector_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fhog_object_detector_ex
+.PHONY : fhog_object_detector_ex
+
+# fast build rule for target.
+fhog_object_detector_ex/fast:
+	$(MAKE) -f CMakeFiles/fhog_object_detector_ex.dir/build.make CMakeFiles/fhog_object_detector_ex.dir/build
+.PHONY : fhog_object_detector_ex/fast
+
+#=============================================================================
+# Target rules for targets named fhog_ex
+
+# Build rule for target.
+fhog_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fhog_ex
+.PHONY : fhog_ex
+
+# fast build rule for target.
+fhog_ex/fast:
+	$(MAKE) -f CMakeFiles/fhog_ex.dir/build.make CMakeFiles/fhog_ex.dir/build
+.PHONY : fhog_ex/fast
+
+#=============================================================================
+# Target rules for targets named file_to_code_ex
+
+# Build rule for target.
+file_to_code_ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 file_to_code_ex
+.PHONY : file_to_code_ex
+
+# fast build rule for target.
+file_to_code_ex/fast:
+	$(MAKE) -f CMakeFiles/file_to_code_ex.dir/build.make CMakeFiles/file_to_code_ex.dir/build
+.PHONY : file_to_code_ex/fast
 
 #=============================================================================
 # Target rules for targets named dnn_face_recognition_ex
@@ -590,58 +655,6 @@ dnn_instance_segmentation_ex: cmake_check_build_system
 dnn_instance_segmentation_ex/fast:
 	$(MAKE) -f CMakeFiles/dnn_instance_segmentation_ex.dir/build.make CMakeFiles/dnn_instance_segmentation_ex.dir/build
 .PHONY : dnn_instance_segmentation_ex/fast
-
-#=============================================================================
-# Target rules for targets named bridge_ex
-
-# Build rule for target.
-bridge_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bridge_ex
-.PHONY : bridge_ex
-
-# fast build rule for target.
-bridge_ex/fast:
-	$(MAKE) -f CMakeFiles/bridge_ex.dir/build.make CMakeFiles/bridge_ex.dir/build
-.PHONY : bridge_ex/fast
-
-#=============================================================================
-# Target rules for targets named dnn_imagenet_ex
-
-# Build rule for target.
-dnn_imagenet_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dnn_imagenet_ex
-.PHONY : dnn_imagenet_ex
-
-# fast build rule for target.
-dnn_imagenet_ex/fast:
-	$(MAKE) -f CMakeFiles/dnn_imagenet_ex.dir/build.make CMakeFiles/dnn_imagenet_ex.dir/build
-.PHONY : dnn_imagenet_ex/fast
-
-#=============================================================================
-# Target rules for targets named video_tracking_ex
-
-# Build rule for target.
-video_tracking_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 video_tracking_ex
-.PHONY : video_tracking_ex
-
-# fast build rule for target.
-video_tracking_ex/fast:
-	$(MAKE) -f CMakeFiles/video_tracking_ex.dir/build.make CMakeFiles/video_tracking_ex.dir/build
-.PHONY : video_tracking_ex/fast
-
-#=============================================================================
-# Target rules for targets named multiclass_classification_ex
-
-# Build rule for target.
-multiclass_classification_ex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multiclass_classification_ex
-.PHONY : multiclass_classification_ex
-
-# fast build rule for target.
-multiclass_classification_ex/fast:
-	$(MAKE) -f CMakeFiles/multiclass_classification_ex.dir/build.make CMakeFiles/multiclass_classification_ex.dir/build
-.PHONY : multiclass_classification_ex/fast
 
 #=============================================================================
 # Target rules for targets named compress_stream_ex
@@ -4136,6 +4149,33 @@ video_tracking_ex.cpp.s:
 	$(MAKE) -f CMakeFiles/video_tracking_ex.dir/build.make CMakeFiles/video_tracking_ex.dir/video_tracking_ex.cpp.s
 .PHONY : video_tracking_ex.cpp.s
 
+webcam_face_pose_ex.o: webcam_face_pose_ex.cpp.o
+
+.PHONY : webcam_face_pose_ex.o
+
+# target to build an object file
+webcam_face_pose_ex.cpp.o:
+	$(MAKE) -f CMakeFiles/webcam_face_pose_ex.dir/build.make CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o
+.PHONY : webcam_face_pose_ex.cpp.o
+
+webcam_face_pose_ex.i: webcam_face_pose_ex.cpp.i
+
+.PHONY : webcam_face_pose_ex.i
+
+# target to preprocess a source file
+webcam_face_pose_ex.cpp.i:
+	$(MAKE) -f CMakeFiles/webcam_face_pose_ex.dir/build.make CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.i
+.PHONY : webcam_face_pose_ex.cpp.i
+
+webcam_face_pose_ex.s: webcam_face_pose_ex.cpp.s
+
+.PHONY : webcam_face_pose_ex.s
+
+# target to generate assembly for a file
+webcam_face_pose_ex.cpp.s:
+	$(MAKE) -f CMakeFiles/webcam_face_pose_ex.dir/build.make CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.s
+.PHONY : webcam_face_pose_ex.cpp.s
+
 xml_parser_ex.o: xml_parser_ex.cpp.o
 
 .PHONY : xml_parser_ex.o
@@ -4177,7 +4217,6 @@ help:
 	@echo "... threads_ex"
 	@echo "... train_object_detector"
 	@echo "... thread_pool_ex"
-	@echo "... thread_function_ex"
 	@echo "... svr_ex"
 	@echo "... svm_pegasos_ex"
 	@echo "... svm_ex"
@@ -4185,33 +4224,35 @@ help:
 	@echo "... sockstreambuf_ex"
 	@echo "... sockets_ex"
 	@echo "... server_http_ex"
-	@echo "... file_to_code_ex"
-	@echo "... bayes_net_gui_ex"
-	@echo "... fhog_ex"
-	@echo "... fhog_object_detector_ex"
+	@echo "... server_iostream_ex"
+	@echo "... sequence_segmenter_ex"
 	@echo "... svm_rank_ex"
 	@echo "... face_landmark_detection_ex"
 	@echo "... config_reader_ex"
 	@echo "... matrix_expressions_ex"
 	@echo "... face_detection_ex"
 	@echo "... bsp_ex"
+	@echo "... thread_function_ex"
+	@echo "... webcam_face_pose_ex"
+	@echo "... bridge_ex"
+	@echo "... dnn_imagenet_ex"
+	@echo "... video_tracking_ex"
+	@echo "... multiclass_classification_ex"
 	@echo "... dnn_instance_segmentation_train_ex"
 	@echo "... dnn_introduction_ex"
 	@echo "... gui_api_ex"
 	@echo "... custom_trainer_ex"
 	@echo "... random_cropper_ex"
-	@echo "... server_iostream_ex"
-	@echo "... sequence_segmenter_ex"
 	@echo "... using_custom_kernels_ex"
 	@echo "... dnn_inception_ex"
+	@echo "... bayes_net_gui_ex"
+	@echo "... fhog_object_detector_ex"
+	@echo "... fhog_ex"
+	@echo "... file_to_code_ex"
 	@echo "... dnn_face_recognition_ex"
 	@echo "... rank_features_ex"
 	@echo "... assignment_learning_ex"
 	@echo "... dnn_instance_segmentation_ex"
-	@echo "... bridge_ex"
-	@echo "... dnn_imagenet_ex"
-	@echo "... video_tracking_ex"
-	@echo "... multiclass_classification_ex"
 	@echo "... compress_stream_ex"
 	@echo "... dnn_introduction2_ex"
 	@echo "... dnn_metric_learning_ex"
@@ -4573,6 +4614,9 @@ help:
 	@echo "... video_tracking_ex.o"
 	@echo "... video_tracking_ex.i"
 	@echo "... video_tracking_ex.s"
+	@echo "... webcam_face_pose_ex.o"
+	@echo "... webcam_face_pose_ex.i"
+	@echo "... webcam_face_pose_ex.s"
 	@echo "... xml_parser_ex.o"
 	@echo "... xml_parser_ex.i"
 	@echo "... xml_parser_ex.s"

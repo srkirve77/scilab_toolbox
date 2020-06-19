@@ -17,6 +17,7 @@ list_functions = [ 'get_random_gaussian';
                    'assignment_cost';
                    'statistics_info';
                    'xml_parser';
+                   'webcam_face_pose';
 ];
 addinter(libtest_toolbox_path + filesep() + 'libtest_toolbox' + getdynlibext(), 'libtest_toolbox', list_functions);
 // remove temp. variables on stack

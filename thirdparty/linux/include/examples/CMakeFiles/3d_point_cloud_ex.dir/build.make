@@ -99,7 +99,7 @@ CMakeFiles/3d_point_cloud_ex.dir/3d_point_cloud_ex.cpp.o.provides.build: CMakeFi
 3d_point_cloud_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 3d_point_cloud_ex: /usr/lib/x86_64-linux-gnu/libz.so
 3d_point_cloud_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-3d_point_cloud_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+3d_point_cloud_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 3d_point_cloud_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 3d_point_cloud_ex: CMakeFiles/3d_point_cloud_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3d_point_cloud_ex"

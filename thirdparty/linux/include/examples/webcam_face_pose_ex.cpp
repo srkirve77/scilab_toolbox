@@ -28,7 +28,9 @@
 */
 
 #include <dlib/opencv.h>
-#include <opencv2/highgui/highgui.hpp>
+#include "/home/srkirve77/Downloads/opencv-master/modules/highgui/include/opencv2/highgui/highgui.hpp"
+#include "/home/srkirve77/Downloads/opencv-master/modules/videoio/include/opencv2/videoio/videoio.hpp"
+//#include <opencv2/highgui/highgui.hpp>
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
@@ -54,7 +56,6 @@ int main()
         frontal_face_detector detector = get_frontal_face_detector();
         shape_predictor pose_model;
         deserialize("shape_predictor_68_face_landmarks.dat") >> pose_model;
-
         // Grab and process frames until the main window is closed by the user.
         while(!win.is_closed())
         {

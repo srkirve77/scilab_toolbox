@@ -99,7 +99,7 @@ mlp_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 mlp_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 mlp_ex: /usr/lib/x86_64-linux-gnu/libz.so
 mlp_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-mlp_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+mlp_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 mlp_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 mlp_ex: CMakeFiles/mlp_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mlp_ex"

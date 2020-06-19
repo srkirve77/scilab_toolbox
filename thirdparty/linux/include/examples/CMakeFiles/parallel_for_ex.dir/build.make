@@ -99,7 +99,7 @@ parallel_for_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 parallel_for_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 parallel_for_ex: /usr/lib/x86_64-linux-gnu/libz.so
 parallel_for_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-parallel_for_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+parallel_for_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 parallel_for_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 parallel_for_ex: CMakeFiles/parallel_for_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable parallel_for_ex"

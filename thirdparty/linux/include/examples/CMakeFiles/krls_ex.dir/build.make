@@ -99,7 +99,7 @@ krls_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 krls_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 krls_ex: /usr/lib/x86_64-linux-gnu/libz.so
 krls_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-krls_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+krls_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 krls_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 krls_ex: CMakeFiles/krls_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable krls_ex"

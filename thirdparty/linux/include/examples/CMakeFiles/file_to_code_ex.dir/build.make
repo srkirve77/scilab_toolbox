@@ -99,7 +99,7 @@ file_to_code_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 file_to_code_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 file_to_code_ex: /usr/lib/x86_64-linux-gnu/libz.so
 file_to_code_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-file_to_code_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+file_to_code_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 file_to_code_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 file_to_code_ex: CMakeFiles/file_to_code_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable file_to_code_ex"

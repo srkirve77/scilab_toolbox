@@ -99,7 +99,7 @@ bsp_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 bsp_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 bsp_ex: /usr/lib/x86_64-linux-gnu/libz.so
 bsp_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-bsp_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+bsp_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 bsp_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 bsp_ex: CMakeFiles/bsp_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bsp_ex"

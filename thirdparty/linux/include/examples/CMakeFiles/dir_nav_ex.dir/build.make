@@ -99,7 +99,7 @@ dir_nav_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 dir_nav_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 dir_nav_ex: /usr/lib/x86_64-linux-gnu/libz.so
 dir_nav_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-dir_nav_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+dir_nav_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 dir_nav_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 dir_nav_ex: CMakeFiles/dir_nav_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dir_nav_ex"

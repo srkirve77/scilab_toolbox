@@ -99,7 +99,7 @@ model_selection_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 model_selection_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 model_selection_ex: /usr/lib/x86_64-linux-gnu/libz.so
 model_selection_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-model_selection_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+model_selection_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 model_selection_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 model_selection_ex: CMakeFiles/model_selection_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable model_selection_ex"

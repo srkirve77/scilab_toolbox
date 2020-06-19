@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/dlib/.. 
+CXX_INCLUDES = -I/usr/local/include -I/usr/local/include/opencv -I/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/dlib/.. 
 

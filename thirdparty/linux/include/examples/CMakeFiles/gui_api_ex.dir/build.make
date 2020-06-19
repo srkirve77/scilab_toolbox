@@ -99,7 +99,7 @@ gui_api_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 gui_api_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 gui_api_ex: /usr/lib/x86_64-linux-gnu/libz.so
 gui_api_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-gui_api_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+gui_api_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 gui_api_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 gui_api_ex: CMakeFiles/gui_api_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gui_api_ex"

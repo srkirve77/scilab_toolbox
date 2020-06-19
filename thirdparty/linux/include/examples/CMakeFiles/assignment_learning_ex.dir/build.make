@@ -99,7 +99,7 @@ assignment_learning_ex: /usr/lib/x86_64-linux-gnu/libXext.so
 assignment_learning_ex: /usr/lib/x86_64-linux-gnu/libpng.so
 assignment_learning_ex: /usr/lib/x86_64-linux-gnu/libz.so
 assignment_learning_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-assignment_learning_ex: /usr/lib/x86_64-linux-gnu/libblas.so
+assignment_learning_ex: /usr/lib/x86_64-linux-gnu/libcblas.so
 assignment_learning_ex: /usr/lib/x86_64-linux-gnu/liblapack.so
 assignment_learning_ex: CMakeFiles/assignment_learning_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/srkirve77/Desktop/code-files/Scilab6-Test-Toolbox-master2/thirdparty/linux/include/examples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment_learning_ex"
