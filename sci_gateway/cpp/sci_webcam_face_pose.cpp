@@ -31,7 +31,12 @@ extern "C"
 static const char fname[] = "webcam_face_pose";
 int sci_webcam_face_pose(scilabEnv env, int nin, scilabVar* in, int nopt, scilabOpt* opt, int nout, scilabVar* out)
     {
-
+        // if (nin != 1)
+        // {
+        //     Scierror(77, _("%s: Wrong number of input argument(s): %d expected.\n"), fname, 1);
+        //     return 1;
+        // }
+        
         webcam_face_pose1();    
         
         return STATUS_OK;

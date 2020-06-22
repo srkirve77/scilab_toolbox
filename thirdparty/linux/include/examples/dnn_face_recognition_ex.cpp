@@ -25,7 +25,7 @@
 #include <dlib/string.h>
 #include <dlib/image_io.h>
 #include <dlib/image_processing/frontal_face_detector.h>
-
+#define DDLIB_JPEG_SUPPORT
 using namespace dlib;
 using namespace std;
 
